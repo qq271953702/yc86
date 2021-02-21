@@ -1,0 +1,21 @@
+spring:
+ application:
+  name: sq-config
+ cloud:
+  config:
+   server:
+    git:
+     default-label: main
+     uri: https://github.com/qq271953702/GitGit/
+     search-paths: /C89-S3-sq
+     username: 
+     password:     
+
+server:
+ port: 9000
+ 
+ 
+eureka:
+  client:
+   
+  
